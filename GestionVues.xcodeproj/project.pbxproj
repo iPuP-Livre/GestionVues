@@ -15,6 +15,8 @@
 		E03C975E151A295C0004D2FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E03C975D151A295C0004D2FD /* AppDelegate.m */; };
 		E03C9761151A295C0004D2FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E03C9760151A295C0004D2FD /* ViewController.m */; };
 		E03C9764151A295C0004D2FD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E03C9762151A295C0004D2FD /* ViewController.xib */; };
+		E03C976C151A2ABE0004D2FD /* Vue1.m in Sources */ = {isa = PBXBuildFile; fileRef = E03C976B151A2ABE0004D2FD /* Vue1.m */; };
+		E03C976F151A2AC50004D2FD /* Vue2.m in Sources */ = {isa = PBXBuildFile; fileRef = E03C976E151A2AC50004D2FD /* Vue2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,19 @@
 		E03C974D151A295C0004D2FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E03C974F151A295C0004D2FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E03C9751151A295C0004D2FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E03C9755151A295C0004D2FD /* GestionVues-Info.plist */ = {isa = PBXFileReference; path = "GestionVues-Info.plist"; sourceTree = "<group>"; };
+		E03C9755151A295C0004D2FD /* GestionVues-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GestionVues-Info.plist"; sourceTree = "<group>"; };
 		E03C9757151A295C0004D2FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E03C9759151A295C0004D2FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E03C975B151A295C0004D2FD /* GestionVues-Prefix.pch */ = {isa = PBXFileReference; path = "GestionVues-Prefix.pch"; sourceTree = "<group>"; };
-		E03C975C151A295C0004D2FD /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E03C975B151A295C0004D2FD /* GestionVues-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GestionVues-Prefix.pch"; sourceTree = "<group>"; };
+		E03C975C151A295C0004D2FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E03C975D151A295C0004D2FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E03C975F151A295C0004D2FD /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E03C975F151A295C0004D2FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E03C9760151A295C0004D2FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E03C9763151A295C0004D2FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E03C976A151A2ABE0004D2FD /* Vue1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vue1.h; sourceTree = "<group>"; };
+		E03C976B151A2ABE0004D2FD /* Vue1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vue1.m; sourceTree = "<group>"; };
+		E03C976D151A2AC50004D2FD /* Vue2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vue2.h; sourceTree = "<group>"; };
+		E03C976E151A2AC50004D2FD /* Vue2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vue2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,10 @@
 				E03C9760151A295C0004D2FD /* ViewController.m */,
 				E03C9762151A295C0004D2FD /* ViewController.xib */,
 				E03C9754151A295C0004D2FD /* Supporting Files */,
+				E03C976A151A2ABE0004D2FD /* Vue1.h */,
+				E03C976B151A2ABE0004D2FD /* Vue1.m */,
+				E03C976D151A2AC50004D2FD /* Vue2.h */,
+				E03C976E151A2AC50004D2FD /* Vue2.m */,
 			);
 			path = GestionVues;
 			sourceTree = "<group>";
@@ -163,6 +173,8 @@
 				E03C975A151A295C0004D2FD /* main.m in Sources */,
 				E03C975E151A295C0004D2FD /* AppDelegate.m in Sources */,
 				E03C9761151A295C0004D2FD /* ViewController.m in Sources */,
+				E03C976C151A2ABE0004D2FD /* Vue1.m in Sources */,
+				E03C976F151A2AC50004D2FD /* Vue2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
